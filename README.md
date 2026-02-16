@@ -7,7 +7,7 @@ Switch between windows on the current screen
 2. Enable the script, KWin should automatically pick up the script you need to enable it.
 ```
 # Enable in config
-kwriteconfig6 --file kwinrc --group Plugins --key switchtiledwindowEnabled true
+kwriteconfig6 --file kwinrc --group Plugins --key switchactivewindowEnabled true
 
 # Start/reload scripting
 qdbus6 org.kde.KWin /Scripting start

@@ -18,7 +18,7 @@ journalctl --user -f | grep -i kwin
 ```
 To see the script output for debugging.
 
-Press <kbd>Meta/Super + S</kbd> to switch between Windows on the Current Screen
+Press <kbd>Meta/Super + Space</kbd> to switch between Windows on the Current Screen
 
 If you wish to make changes yourself, you can edit `main.js` and then run the following in a terminal:
 ```

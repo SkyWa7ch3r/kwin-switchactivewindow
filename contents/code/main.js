@@ -1,7 +1,7 @@
 registerShortcut(
     "Switch Active Window", 
     "Switch to the next active window on the current screen", 
-    "Meta+S", 
+    "Meta+Space", 
     () => {
         const currentWindow = workspace.activeWindow;
         
